@@ -1,0 +1,68 @@
+<configs>
+
+	<append xpath="/recipes">
+
+		<recipe name= "foodCanBeef" count="1" craft_area="campfire" craft_tool="toolCookingPot" craft_time = "30">
+			<ingredient name="foodRawMeat" count="3"/>
+			<ingredient name="resourceAnimalFat" count="1"/>
+			<ingredient name="drinkCanEmpty" count="1"/>
+			<ingredient name="drinkJarBoiledWater" count="1"/>
+		</recipe>
+
+		<recipe name="foodCanLamb" count="1" craft_area="campfire" craft_tool="toolCookingPot" craft_time = "30">
+			<ingredient name="foodRawMeat" count="2"/>
+			<ingredient name="resourceAnimalFat" count="1"/>
+			<ingredient name="drinkCanEmpty" count="1"/>
+			<ingredient name="drinkJarBoiledWater" count="1"/>
+		</recipe>
+
+		<recipe name="foodCanTuna" count="1" craft_area="campfire" craft_tool="toolCookingPot" craft_time = "30">
+			<ingredient name="foodRawMeat" count="1"/>
+			<ingredient name="resourceAnimalFat" count="1"/>
+			<ingredient name="drinkCanEmpty" count="1"/>
+			<ingredient name="drinkJarBoiledWater" count="3"/>
+		</recipe>
+
+		<recipe name= "foodCanStock" count="1" craft_area="campfire" craft_tool="toolCookingPot" craft_time = "30">
+			<ingredient name="resourceBone" count="3"/>
+			<ingredient name="drinkCanEmpty" count="1"/>
+			<ingredient name="drinkJarBoiledWater" count="1"/>
+		</recipe>
+
+		<recipe name="foodCanSalmon" count="1" craft_area="campfire" craft_tool="toolCookingPot" craft_time = "30">
+			<ingredient name="foodRawMeat" count="2"/>
+			<ingredient name="drinkCanEmpty" count="1"/>
+			<ingredient name="drinkJarBoiledWater" count="1"/>
+		</recipe>
+
+		<recipe name="foodCanPasta" count="1" craft_area="campfire" craft_tool="toolCookingPot" craft_time="30">
+			<ingredient name="foodCornBread" count="2"/>
+			<ingredient name="drinkJarBoiledWater" count="1"/>
+			<ingredient name="foodRawMeat" count="1"/>
+		</recipe>
+
+		<recipe name="medicalFirstAidKit" count="1" craft_area="chemistryStation" tags="learnable,chemStationCrafting" craft_time="15">
+			<ingredient name="medicalBloodBag" count="2"/>
+			<ingredient name="medicalAloeCream" count="2"/>
+			<ingredient name="medicalFirstAidBandage" count="1"/>
+			<ingredient name="resourceSewingKit" count="1"/>
+		</recipe>
+
+		<recipe name="resourceAcid" count="5" craft_area="chemistryStation" craft_time="25">
+			<ingredient name="carBattery" count="2"/>
+			<ingredient name="drinkJarBoiledWater" count="1"/>
+			<ingredient name="resourceScrapPolymers" count="2"/>
+		</recipe>
+
+		<recipe name="foodCanDogfood" count="2" craft_area="campfire" craft_time="10">
+			<ingredient name="foodRawMeat" count="2"/>
+			<ingredient name="foodCropCorn" count="1"/>
+		</recipe>
+
+		<recipe name="resourceCobblestones" count="3" craft_area="cementMixer" craft_time="1">
+			<ingredient name="resourceClayLump" count="1"/>
+			<ingredient name="resourceRockSmall" count="1"/>
+		</recipe>
+
+	</append>
+</configs>
